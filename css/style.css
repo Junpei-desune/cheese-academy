@@ -1,0 +1,311 @@
+/* ここから下に記載していく */
+
+.header__nav {
+    display: flex;
+}
+
+.header__nav li {
+    margin-left: 40px;
+}
+
+/* header自体！ */
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* mainvisual */
+.mainvisual {
+    height: 400px;
+    background: url("../img/yt_nishiawa_01.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.mainvisual__title {
+    font-size: 30px;
+    font-weight: bold;
+    color:#3eaa59 ;
+    text-align: center;
+    padding-top: 180px;
+}
+
+.mainvisual__subtitle {
+    font-size: 30px;
+    font-weight: bold;
+    color:#3eaa59 ;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* ABOUTの調整 */
+.about {
+    text-align: center;
+    margin: 60px 0;
+    
+    /* 幅60％ */
+    width: 60%;  
+
+   /* 中央揃え(レフト.ライトをautでなる！） */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*  タイトルとサブタイトルとテキストを調整 */
+.about__title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff8826;
+    margin-bottom: 20px;
+}
+
+.about__subtitle {
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin: auto;
+}
+
+.about__text {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/*  imgBoxを横並びに */
+.imgBox{
+    display: flex;
+    margin-bottom: 60px;
+
+}
+
+/* 画像を囲っているpタグの横幅を指定 */
+.imgBox p{
+width: 25%;
+
+}
+
+/* imgタグの最大横幅を100%に指定してpタグからはみ出さないように */
+.imgBox p img {
+    width: 100%;
+}
+
+/* courseエリアとタイトルテキストを調整 */
+.course {
+    margin: 50px 0;
+}
+
+.course__title {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.course__text {
+    text-align: center;
+    font-size: 16px;
+    margin:  70px;
+    margin-bottom: 50px;
+}
+
+/* course__boxのデザイン調整 */
+.course__box {
+    margin-top: 50px;
+}
+
+/* course__innerとcourse__contentの中央揃え */
+
+.course__inner {
+    display: flex;
+}
+
+.course__content {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+/* course__content内のimgタグを調整 */
+.course__content{
+    width: 100%;
+    vertical-align: top;
+}
+
+/* course__left内のタイトルとテキストデザイン調整 */
+.content__title {
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.content__text {
+    width: 100%;
+}
+
+/* course__leftのデザイン調整 */
+.content__left {
+    width: 70%;
+    margin-left: 50px;
+}
+
+/* コンテントライト/右寄せデザイン用 */
+.course__content__right {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.content__right {
+    width: 70%;
+    margin-right: 50px;
+}
+
+
+
+.box10 {
+    width: 960px;
+    /* height: 400px; */
+    /* border: solid black 1px; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btm {
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.access {
+    margin: 50px 0;
+}
+
+.map iframe{
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    justify-content: center;
+    
+}
+
+.box08 .prop {
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.map{
+    width: 100%;
+    position: relative;
+    padding: top 40%;
+    justify-content: center;
+}
+
+.box01{
+
+    margin: auto;
+}
+
+.aaa{
+    margin-top: 30px;
+    margin-right: 20px;
+
+
+}
+body{
+    background-color: rgba(189, 121, 81, 0.163);
+}
+
+
+ 
+
+
+label {
+   display: block;
+  }
+
+.example{
+   text-align: center;
+}
+
+.form{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bb{
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+
+a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    background: #333;
+    padding: 18px 30px;
+    border-radius: 6px;
+    transition: .3s;
+  }
+
+
+  a:hover {
+    background:  #ff8826;
+
+  }
+
+  .bbbb{
+
+    margin-top: 50px;
+  }
+
+  .c{
+    text-align: center;
+    font-size: 16px;
+    margin:  70px;
+    margin-top: 140px;
+  }
+
+  .slider{
+    margin:  70px;
+    margin-top: 140px;
+  }
+
+.slider li{
+    width: 25%;
+    
+    }
+
+        
+
+.slider li img {
+    width: 100%;
+}
+
+.eee{
+    width: 100%
+
+}
+
+.ee{
+    text-align: right;
+}
+
+.fff{
+    width: 100%
+
+}
+
+.ff{
+    text-align: left;
+}
